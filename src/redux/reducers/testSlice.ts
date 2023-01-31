@@ -3,12 +3,10 @@ import type { PayloadAction } from '@reduxjs/toolkit'
 
 export interface CounterState {
     value: number
-    this: string
 }
 
 const initialState: CounterState = {
     value: 0,
-    this:"123"
 }
 
 export const counterSlice = createSlice({
